@@ -1,0 +1,160 @@
+body {
+  background-color: #5d5d5d;
+}
+.mainLayout {
+  display: flex;
+  justify-content: center;
+  color: #5b5151;
+  font-size: 14px;
+  position: relative;
+  margin: 50px;
+}
+
+.todoLayout {
+  width: calc(100% - 10px);
+  max-width: 300px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  box-shadow: 20px 20px #f2eded;
+  background-color: #fff;
+}
+
+.todoTop {
+  position: absolute;
+  width: calc(100% -10px);
+  height: 104px;
+  max-width: 700px;
+}
+
+.todoTitle {
+  width: 100%;
+  padding: 20px 5px 20px 5px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.todoAdd {
+  width: 100%;
+  display: flex;
+}
+
+.todoAdd input {
+  width: 100%;
+  height: 40px;
+  padding: 0px 12px 0px 12px;
+  box-sizing: border-box;
+  background-color: #f2eded;
+  outline: none;
+  border: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.todoAdd .onClick {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3c5c5;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.todoAdd .onClick:hover {
+  color: gray;
+}
+
+.listLayout {
+  padding: 110px 10px 10px 10px;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todoItem {
+  width: calc(100% - 50px);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.todoItem .todoCheckBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.todoItem .todoCheckBox .item {
+  white-space: normal; /* 텍스트 자동 줄바꿈 처리 */
+  padding: 0px 20px 0px 0px;
+}
+
+.todoItem .todoCheckBox .item.done {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.todoItem .todoCheckBox .checkBox {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  min-width: 17px;
+  height: 17px;
+  background-color: #d3c5c5;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.todoItem .todoCheckBox .checkBox .checkIcon {
+  display: none;
+}
+
+.todoItem .todoCheckBox .checkBox .checkIcon.done {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  width: 100%;
+  background-color: #d3c5c5;
+  border-radius: 5px;
+}
+
+.todoItem .deleteBox {
+  content: "";
+  font-size: 15px;
+  height: 17px;
+  width: 17px;
+  margin-left: 200px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  color: #aaa;
+  cursor: pointer;
+  position: absolute;
+}
+
+.todoItem .deleteBox:hover {
+  color: black;
+}
