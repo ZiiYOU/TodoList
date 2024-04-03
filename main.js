@@ -33,6 +33,13 @@ function createTodo() {
     item.textContent = todoContents;
     deleteBox.append("x");
     checkIcon.append("✔️");
+
+    // 기능 2. 할 일 마친 후 체크하기
+    checkBox.addEventListener("click", () => {
+      checkIcon.classList.toggle("done");
+      item.classList.toggle("done");
+      saveItem();
+    });
   }
 }
 
