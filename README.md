@@ -1,14 +1,10 @@
 # 📔 To Do List
 
----
-
 순수 자바스크립트만 사용하여 개발한 To Do List 입니다.
 
 ![mock up](public/ToDoList.png)
 
 ## 👩🏻‍💻 개발자 소개
-
----
 
 <table>
   <tbody>
@@ -20,13 +16,9 @@
 
 ## ⚙️ 기술 스택
 
----
-
 <img src="https://img.shields.io/badge/Html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/Css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
 
 ## 📌 주요 기능
-
----
 
 **1. To Do List 등록** <br/>
 **2. 완료한 List 체크 및 해제** <br/>
