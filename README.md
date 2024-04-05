@@ -4,7 +4,7 @@
 
 순수 자바스크립트만 사용하여 개발한 To Do List 입니다.
 
-![mock up](public/ToDoList.png)
+![mock up](public/ToDoList.png)
 
 ## 👩🏻‍💻 개발자 소개
 
