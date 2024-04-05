@@ -1,9 +1,5 @@
 # 📔 To Do List
 
-순수 자바스크립트만 사용하여 개발한 To Do List 입니다.
-
-![mock up](public/ToDoList.png)
-
 ## 👩🏻‍💻 개발자 소개
 
 <table>
@@ -24,3 +20,5 @@
 **2. 완료한 List 체크 및 해제** <br/>
 **3. To Do List 삭제** <br/>
 **4. To Do List를 LocalStorage에 저장** : 새로고침하더라도 데이터 유지 가능.
+
+![Todo List](public/ToDoList.png)
